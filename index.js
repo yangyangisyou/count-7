@@ -12,9 +12,13 @@ const print = (n) => {
     console.log(`g(${n}) = ${count7(n)}`);
 }
 
-print(1);
-print(7);
-print(20);
-print(70);
-print(100);
-print(1000);
+// print(1);
+// print(7);
+// print(20);
+// print(70);
+// print(100);
+// print(1000);
+
+module.exports = {
+    count7
+};

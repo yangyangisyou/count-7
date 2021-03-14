@@ -3,6 +3,11 @@
 ## O(n) version
 If we iterative the number from 1 to n, we could easily count how many 7 within the range.
 
+## How to test Sample test
+```
+npm run test
+```
+
 ## Sample Input
 1  
 7  

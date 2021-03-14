@@ -1,0 +1,23 @@
+{
+  "name": "count7",
+  "version": "1.0.0",
+  "description": "## O(n) version If we iterative the number from 1 to n, we could easily count how many 7 within the range.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangyangisyou/count-7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangyangisyou/count-7/issues"
+  },
+  "homepage": "https://github.com/yangyangisyou/count-7#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
