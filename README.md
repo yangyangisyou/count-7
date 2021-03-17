@@ -10,6 +10,13 @@ In 1 to 100 case, 7 apears 10 time in tens digit.
 In 1 to 1000 case, 7 apears 100 time in hundreds digit.  
 ...
 
+## As summarize
+g(1) = 1
+g(2) = 9 * g(1) + 10 ** 1
+g(3) = 9 * g(2) + 10 ** 2
+...
+g(n) = 9 * g(n-1) + 10 ** (n-1)
+
 So, if we want to count-7 of Nth digit, we could says:
 S(Nth) = (capitalDigit) * N + S((N-1)th) + ...
 
